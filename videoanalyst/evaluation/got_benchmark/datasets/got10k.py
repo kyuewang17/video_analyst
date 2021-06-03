@@ -36,7 +36,7 @@ class GOT10k(object):
                  subset='test',
                  return_meta=False,
                  list_file=None,
-                 check_integrity=True,
+                 check_integrity=False,
                  cache_path=None,
                  ignore_cache=False):
         super(GOT10k, self).__init__()

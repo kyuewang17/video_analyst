@@ -20,7 +20,7 @@ test:
       task_model:
         name: "SiamTrack"
         SiamTrack:
-          pretrain_model_path: "models/siamfcpp/siamfcpp-alexnet-got-md5_5e01cf6271ad42e935032b61b05854d3.pkl"
+          pretrain_model_path: "/home/kyle/PycharmProjects/video_analyst/models/siamfcpp/siamfcpp-alexnet-got-md5_5e01cf6271ad42e935032b61b05854d3.pkl"
     pipeline:
       name: "SiamFCppTracker"
       SiamFCppTracker:

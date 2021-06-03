@@ -28,7 +28,7 @@ class GOT10kTester(TesterBase):
     """
     extra_hyper_params = dict(
         device_num=1,
-        data_root="datasets/GOT-10k",
+        data_root="/home/kyle/PycharmProjects/video_analyst/datasets/GOT-10k",
         subsets=["val"],  # (val|test)
     )
 

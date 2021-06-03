@@ -16,12 +16,12 @@ from videoanalyst.pipeline import builder as pipeline_builder
 
 def make_parser():
     parser = argparse.ArgumentParser(description='Test')
-    parser.add_argument('-cfg',
-                        '--config',
-                        default='',
-                        type=str,
-                        help='experiment configuration')
-
+    parser.add_argument(
+        '-cfg',
+        '--config',
+        default='../experiments/siamfcpp/test/got10k/siamfcpp_alexnet-got.yaml',
+        type=str,
+        help='experiment configuration')
     return parser
 
 
